@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blockone{
+    position: absolute;
+    float:left;
+    height: 1297px;
+    width: 50%;
+    background: url(../img/side_background.png) 0 0/ 100% 100% no-repeat;
+    box-shadow: 0px 0px 30px #03A9F4;
+    text-align: center;
+}
+
+.sec1{
+    position: relative;
+    margin: 35% auto 0 auto;
+    box-shadow: 0 0 30px hsl(197, 100%, 74%);
+    width: 600px;
+    height: 50px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3b3c3d;
+
+}
+.sec2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3b3c3d;
+    font-size: 25px;
+    margin: 5% auto 0 auto;
+    background-color: white;
+    border-radius: 30px;
+    width: 600px;
+    height: 50px;
+    box-shadow: 0 0 30px hsl(197, 100%, 74%);
+}
+.sec3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3b3c3d;
+    font-size: 25px;
+    margin: 5% auto 0 auto;
+    background-color: white;
+    border-radius: 30px;
+    width: 600px;
+    height: 50px;
+    box-shadow: 0 0 30px hsl(197, 100%, 74%);
+}
+.asec1, .asec2, .asec3{
+    color: #63676b;
+    text-decoration: none;
+}
+.blocktwo{
+    float:right;
+    height: 1297px;
+    width: 50%;
+    position: relative;
+}
+
+.blocktwo__signupandstart{
+    text-align: center;
+    font-size: 40px;
+    margin: 250px 0px 0px 0px;
+}
+
+.blocktwo__signup{
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #5c5b56;
+}
+.blocktwo__start{
+    font-weight: lighter;
+    color: #727b80;
+}
+
+.mail{
+    margin: 0px 555px 0px 0px;
+    font-size: 25px;
+    color: #707070;
+}
+
+.mailarea{
+    border-radius: 5px;
+    height: 50px;
+    width: 650px;
+    border: 2px solid #c3bebe;
+    box-shadow: 5px 10px 20px rgb(182, 174, 174);
+    font-size: 25px;
+}
+
+.mailarea:focus{
+    border: 2px solid #dd932c;
+    outline: none;
+}
+
+.punkts{
+    margin: 1% 0px 0px 25%;
+    width: 655px;
+    height: 600px;
+    position: absolute;
+}
+
+.mail, .mailarea{
+    display: flex;
+}
+
+.pass, .passText{
+    display: flex;
+}
+
+.passText{
+    margin: 50px 0px 0px 0px;
+    font-size: 25px;
+    color: #707070;
+}
+
+.pass{
+    border-radius: 5px;
+    height: 50px;
+    width: 650px;
+    border: 2px solid #c3bebe;
+    box-shadow: 5px 10px 20px rgb(182, 174, 174);
+    font-size: 25px;
+}
+
+.cbText{
+    font-size: 20px;
+    margin: 75px 0 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #707070;
+    width: 630px;
+    float:right;
+}
+
+.checkbox{
+    margin: 94px 0 0 0;
+    float:left;
+}
+
+.blocktwo__signupbutton{
+    margin: 35% 0 0 31%;
+    background-color: #03A9F4;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px 200px;
+    position: absolute;
+    box-shadow: 0px 0px 10px #7bd5ff;
+    text-decoration: none;
+}
+
+.facebook{
+    position: absolute;
+    width: 80px;
+    margin: 0 350px 0 0;
+}
+
+.twitter{
+    position: absolute;
+    width: 65px;
+    margin: 0 370px 3px 0;
+}
+
+.linkedin{
+    position: absolute;
+    width: 35px;
+    margin: 0 350px 0 0;
+}

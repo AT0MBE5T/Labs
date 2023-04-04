@@ -1,0 +1,119 @@
+.header, .footer{
+	height: 180px;
+	background-color: #6474FF;
+}
+.main{
+	height: 921px;
+	background-color: #EEF0F1;
+}
+.secname{
+	border-radius: 25px;
+	margin: -75px 0px 0px 850px;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 50px;
+	width: 750px;
+	height: 200px;
+	position: absolute;
+}
+
+.img{
+	margin: -20px 0px 0px 0px;
+	height: 120px;
+	width: 120px;
+	border-radius: 100px;
+	box-shadow: 0px 0px 18px 7px #6474FF;
+}
+body{
+	font-family: 'roboto';
+}
+
+.login{
+	margin: 40px 0px 0px 2300px;
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: #FFC000;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+}
+
+.sec1{
+	height: 400px;
+	width: 300px;
+	background-color: white;
+	position: absolute;
+	border-radius: 20px;
+	margin: 385px 0px 0px 24%;
+}
+
+.sec2{
+	height: 400px;
+	width: 300px;
+	background-color: white;
+	position: absolute;
+	border-radius: 20px;
+	margin: 385px 0px 0px 44%;
+}
+
+.sec3{
+	display: inline-block;
+	height: 400px;
+	width: 300px;
+	background-color: white;
+	position: absolute;
+	border-radius: 20px;
+	margin: 385px 0px 0px 64%;
+}
+
+.headsec{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+}
+.headsecul{
+	margin: 50px 0px 0px 20px;
+}
+
+li{
+	font-size: 30px;
+}
+
+.textcat{
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+.pp{
+	margin-top: -20px;
+	word-break: break-all;
+	width: 500px;
+	margin-left: 120px;
+	font-size: 20px;
+}
+.h3{
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	margin: 50px 0px 0px 1140px;
+}
+
+.links{
+	position: absolute;
+	margin: 90px 0px 0px 1045px;
+}
+.pref
+{
+	width: auto;
+	font-size: 20px;
+	float: left;
+	margin-right: 50px;
+}
+
+.ref{
+	color: white;
+	font-style: italic;
+}
