@@ -1,0 +1,207 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .nav__square {
+    background: none;
+  }
+  .wrapper {
+    flex-direction: column-reverse;
+    margin-left: 400px;
+    align-items: center;
+    height: 300px;
+  }
+  .wrapper .wrapper__logo {
+    display: none;
+  }
+  .wrapper .wrapper__text {
+    display: flex;
+    justify-content: flex-start;
+    height: 0px;
+    margin: 0;
+    padding-top: 0;
+  }
+  .wrapper .wrapper__text .wrapper__text1 {
+    padding: 0;
+    margin-top: 0px;
+  }
+  .wrapper .wrapper__text .wrapper__text1 .text__new {
+    padding: 10px;
+  }
+  .wrapper .wrapper__text .wrapper__text4 {
+    width: 100%;
+    letter-spacing: 0;
+    font-size: 30px;
+  }
+  .wrapper .wrapper__text .wrapper__text2 {
+    font-size: 40px;
+  }
+  .wrapper .wrapper__text .wrapper__text3 {
+    font-size: 50px;
+    width: 100%;
+  }
+  .wrapper .nav {
+    margin-left: 900px;
+  }
+  .wrapper .nav .wrapper__logonav {
+    display: block;
+    position: relative;
+    top: 80px;
+    right: 750px;
+  }
+  .wrapper .nav .wrapper__logonav .wrapper__logosvgnav {
+    width: 50px;
+  }
+  .wrapper .nav .imgdiv {
+    display: none;
+  }
+  .wrapper .nav .imgdevices {
+    display: none;
+  }
+  .wrapper .nav .nav__square {
+    display: none;
+  }
+  .wrapper .nav .list {
+    padding: 0;
+    margin-top: 0;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  .wrapper .nav .list .dot {
+    width: 20px;
+    height: 20px;
+    transform: translate(0, 15px);
+  }
+  .wrapper .nav li:first-child {
+    margin-left: 50px;
+  }
+  .wrapper .nav li {
+    font-size: 25px;
+  }
+  .wrapper__text {
+    display: flex;
+    justify-content: flex-start;
+    height: 0px;
+    margin: 0;
+    padding-top: 0;
+  }
+  .wrapper__text .wrapper__text1 {
+    padding: 0;
+    margin-top: 0px;
+  }
+  .wrapper__text .wrapper__text1 .text__new {
+    padding: 10px;
+  }
+  .wrapper__text .wrapper__text4 {
+    width: 100%;
+    letter-spacing: 0;
+    font-size: 30px;
+  }
+  .wrapper__text .wrapper__text2 {
+    font-size: 40px;
+  }
+  .wrapper__text .wrapper__text3 {
+    font-size: 50px;
+    width: 100%;
+  }
+  .nav {
+    margin-left: 900px;
+  }
+  .nav .wrapper__logonav {
+    display: block;
+    position: relative;
+    top: 80px;
+    right: 750px;
+  }
+  .nav .wrapper__logonav .wrapper__logosvgnav {
+    width: 50px;
+  }
+  .nav .imgdiv {
+    display: none;
+  }
+  .nav .imgdevices {
+    display: none;
+  }
+  .nav .nav__square {
+    display: none;
+  }
+  .nav .list {
+    padding: 0;
+    margin-top: 0;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  .nav .list .dot {
+    width: 20px;
+    height: 20px;
+    transform: translate(0, 15px);
+  }
+  .nav li:first-child {
+    margin-left: 50px;
+  }
+  .nav li {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .wrapper {
+    margin-bottom: 0px;
+    flex-direction: column-reverse;
+    margin-left: 400px;
+    align-items: center;
+    justify-content: start;
+  }
+  .wrapper .wrapper__logo {
+    display: none;
+  }
+  .wrapper .wrapper__text {
+    margin: 0;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 0;
+  }
+  .wrapper .wrapper__text .wrapper__text1 {
+    padding: 0;
+    margin-top: 100px;
+  }
+  .wrapper .wrapper__text .wrapper__text1 .text__new {
+    padding: 10px;
+  }
+  .wrapper .wrapper__text .wrapper__text4 {
+    width: 100%;
+    letter-spacing: 0;
+  }
+  .nav {
+    margin: 0;
+  }
+  .nav .nav__square {
+    background: none;
+  }
+  .nav .wrapper__logonav {
+    display: block !important;
+    position: absolute;
+    top: 110px;
+    right: 375px;
+  }
+  .nav .wrapper__logonav .wrapper__logosvgnav {
+    width: 50px;
+  }
+  .nav .imgdiv {
+    display: none;
+  }
+  .nav .imgdevices {
+    display: none;
+  }
+  .nav .nav__square {
+    display: none;
+  }
+  .nav .list {
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+    gap: 40px !important;
+    margin-right: 100%;
+  }
+  .nav li:first-child {
+    margin-left: 50px;
+  }
+}/*# sourceMappingURL=media.css.map */
