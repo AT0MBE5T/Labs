@@ -1,0 +1,188 @@
+@media screen and (max-width: 375px) {
+  .wrapper {
+    display: block;
+  }
+  .wrapper .nav__burger2 {
+    display: block;
+    left: 0;
+    padding-left: 24px;
+  }
+  .wrapper .main__magnifier2 {
+    display: block;
+    top: 4.32%;
+    right: 0;
+    padding-right: 24px;
+  }
+  .wrapper .nav {
+    display: none;
+  }
+  .wrapper .main__search {
+    display: none;
+  }
+  .wrapper .main__text2 {
+    padding-left: 24px !important;
+  }
+  .wrapper .main__text2 .main__categorias {
+    display: none;
+  }
+  .wrapper .main__text2 .main__categorias2 {
+    display: block !important;
+    padding-top: 88px;
+  }
+  .wrapper .main .main__choice {
+    padding-left: 24px;
+    padding-right: 24px;
+    border-bottom: none;
+  }
+  .wrapper .main .main__choice .main__pizzas > span {
+    display: none;
+  }
+  .wrapper .main .main__choice .main__empanadas > span {
+    display: none;
+  }
+  .wrapper .main .main__choice .main__bebidas > span {
+    display: none;
+  }
+  .wrapper .main .main__choice .main__postres > span {
+    display: none;
+  }
+  .wrapper .main .main__choice .main__pizzas {
+    border-bottom: none;
+    padding: 0;
+    background-color: #E8E8E8;
+    border-radius: 16px;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    position: relative;
+  }
+  .wrapper .main .main__choice .main__pizzas .main__pizzasImg {
+    position: relative;
+    top: 25%;
+    transform: none;
+  }
+  .wrapper .main .main__choice .main__empanadas {
+    background-color: #E8E8E8;
+    border-radius: 16px;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+  }
+  .wrapper .main .main__choice .main__empanadas .main__empanadasImg {
+    position: relative;
+    top: 25%;
+    transform: none;
+  }
+  .wrapper .main .main__choice .main__bebidas {
+    background-color: #E8E8E8;
+    border-radius: 16px;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+  }
+  .wrapper .main .main__choice .main__bebidas .main__bebidasImg {
+    position: relative;
+    top: 25%;
+    transform: none;
+  }
+  .wrapper .main .main__choice .main__postres {
+    background-color: #E8E8E8;
+    border-radius: 16px;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+  }
+  .wrapper .main .main__choice .main__postres .main__postresImg {
+    position: relative;
+    top: 25%;
+    transform: none;
+  }
+  .wrapper .main .main__menu {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .wrapper .main .main__menu .main__lot1 {
+    height: auto !important;
+    width: 151px;
+    height: 157px;
+  }
+  .wrapper .main .main__menu .main__lot1 .lot1__img {
+    width: 151px;
+    padding-bottom: 18px;
+  }
+  .wrapper .main .main__menu .main__lot1 .lot1__text3 {
+    position: relative;
+    right: 10%;
+    bottom: 3%;
+  }
+  .wrapper .main .main__menu .main__lot2 {
+    height: auto !important;
+    width: 151px;
+    height: 157px;
+  }
+  .wrapper .main .main__menu .main__lot2 .lot2__img {
+    width: 151px;
+    padding-bottom: 18px;
+  }
+  .wrapper .main .main__menu .main__lot2 .lot2__text3 {
+    position: relative;
+    right: 10%;
+    bottom: 3%;
+  }
+  .wrapper .main .main__menu .main__lot3 {
+    height: auto !important;
+    width: 151px;
+    height: 157px;
+  }
+  .wrapper .main .main__menu .main__lot3 .lot3__img {
+    width: 151px;
+    padding-bottom: 18px;
+  }
+  .wrapper .main .main__menu .main__lot3 .lot3__text2 {
+    opacity: 0.2;
+  }
+  .wrapper .main .main__menu .main__lot3 .lot3__text3 {
+    position: relative;
+    right: 10%;
+    bottom: 3%;
+  }
+  .wrapper .main .main__menu .main__lot4 {
+    height: auto !important;
+    width: 151px;
+    height: 157px;
+  }
+  .wrapper .main .main__menu .main__lot4 .lot4__img {
+    width: 151px;
+    padding-bottom: 18px;
+  }
+  .wrapper .main .main__menu .main__lot4 .lot4__text1 {
+    display: none;
+  }
+  .wrapper .main .main__menu .main__lot4 .lot4__text122 {
+    display: block;
+  }
+  .wrapper .main .main__menu .main__lot4 .lot4__text2 {
+    opacity: 0.2;
+  }
+  .wrapper .main .main__menu .main__lot4 .lot4__text3 {
+    position: relative;
+    right: 10%;
+    bottom: 3%;
+  }
+  .wrapper .aside {
+    background-color: white;
+  }
+  .wrapper .aside .aside__miordendiv {
+    display: none;
+  }
+  .wrapper .aside .aside__img1 {
+    display: none;
+  }
+  .wrapper .aside .aside__button {
+    margin-top: 277px;
+    margin-bottom: 21px;
+    margin-left: -6.5px;
+    width: 150px;
+    padding: 16.5px 95px;
+  }
+}/*# sourceMappingURL=media.css.map */
