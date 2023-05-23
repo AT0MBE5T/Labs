@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.fourtyseven {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.sixtseven {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.fourtsix {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.twfourseven {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.fourtseven {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.fourtfive {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.btncol {
+  background-color: #23A6F0 !important;
+}
+
+.header {
+  background: #252B42;
+  font-size: 2vw;
+}
+
+.header__list {
+  list-style-type: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.hero h2 {
+  font-size: 10.5vw !important;
+  width: 90% !important;
+}
+.hero h4 {
+  font-size: 5vw !important;
+  width: 70% !important;
+}
+.hero button {
+  font-size: 5vw !important;
+}
+.hero .hero__text {
+  top: 55% !important;
+}
+
+.icons {
+  background: #252B42;
+}
+
+.clientsay {
+  background: #8EC2F2;
+}
+.clientsay__h5 {
+  color: #252B42;
+}
+
+.optimist {
+  background: #252B42;
+}
+.optimist .opt__text {
+  top: 50%;
+}
+.optimist .opt__tax {
+  font-size: 4vw !important;
+}
+.optimist .opt__life {
+  font-size: 7vw !important;
+}
+.optimist .opt__but {
+  font-size: 5vw !important;
+}
+
+.pricing {
+  background-color: #252B42;
+}
+.pricing .pricing__text h2 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.pricing__block .pricing__price1 .price1__text1 {
+  color: #23A6F0 !important;
+}
+.pricing__block .pricing__price1 .price1__cont .price1__text2 {
+  color: #23A6F0 !important;
+}
+.pricing__block .pricing__price1 .price1__cont .price1__text3 {
+  color: #8EC2F2 !important;
+}
+.pricing__block .pricing__free h3 {
+  color: #252B42 !important;
+}
+.pricing__block .pricing__free p {
+  color: #737373 !important;
+}
+.pricing__block .pricing__prosncons {
+  color: #252B42 !important;
+}
+.pricing__block .pricing__prosncons .pricing__list {
+  list-style-type: none;
+}
+
+.btn1036 {
+  padding: 10px 36px !important;
+}
+
+.btn1525 {
+  padding: 15px 25px !important;
+}
+
+.consulting {
+  background-color: #FAFAFA;
+}
+.consulting .consulting__block h3 {
+  color: #252B42 !important;
+}
+.consulting .consulting__block p {
+  color: #252B42 !important;
+}
+.consulting .consulting__block button {
+  background-color: #23A6F0;
+}
+
+.footer {
+  background: #252B42;
+}
+.footer .footer__list ul {
+  list-style-type: none;
+}
+.footer .footer__list .footer__list1 li:first-child {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.footer .footer__list .footer__list2 li:first-child {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.footer .footer__list .footer__list3 li:first-child {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.footer .footer__list .footer__list4 li:first-child {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.footer .footer__list .footer__list5 li:first-child {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 992px) {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .header {
+    background: none;
+    position: absolute !important;
+    height: 0;
+    z-index: 1;
+  }
+  .hero__text {
+    font-size: 1.5vw !important;
+  }
+  .hero h2 {
+    font-size: 4.5vw !important;
+    width: 50% !important;
+  }
+  .hero h4 {
+    font-size: 20px !important;
+    width: 25% !important;
+  }
+  .hero .hero__text {
+    top: 30% !important;
+  }
+  .hero button {
+    font-size: 1vw !important;
+  }
+  .hero img {
+    height: auto !important;
+  }
+  .optimist .opt__text {
+    top: 55%;
+    padding-top: 200px;
+  }
+  .optimist .opt__tax {
+    font-size: 1vw !important;
+  }
+  .optimist .opt__life {
+    font-size: 2vw !important;
+  }
+  .optimist .opt__but {
+    font-size: 1vw !important;
+  }
+  .consulting .container {
+    width: auto !important;
+  }
+  .footer__bottom {
+    background-color: white;
+  }
+  .footer__bottom p {
+    color: #737373;
+  }
+}/*# sourceMappingURL=style.css.map */

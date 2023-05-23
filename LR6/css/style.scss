@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@mixin font($size, $weight){
+    font-family: 'Montserrat';
+    font-weight: $weight;
+    font-size: $size;
+    color: #FFFFFF;
+}
+
+.fourtyseven{
+    @include font(40px, 700);
+}
+
+.sixtseven{
+    @include font(16px, 700);
+}
+
+.fourtsix{
+    @include font(14px, 600);
+}
+
+.twfourseven{
+    @include font(24px, 700);
+}
+
+.fourtseven{
+    @include font(14px, 700);
+}
+
+.fourtfive{
+    @include font(14px, 500);
+}
+
+.btncol{
+    background-color: #23A6F0 !important;
+}
+
+
+
+.header{
+    background: #252B42;
+    font-size: 2vw;
+}
+
+.header__list{
+    list-style-type: none;
+    @include font(30px, 500);
+}
+
+.hero{
+    h2{
+        font-size: 10.5vw!important;
+        width: 90% !important;
+    }
+    h4{
+        font-size: 5vw !important;
+        width: 70% !important;
+    }
+    button{
+        font-size: 5vw !important;
+    }
+    .hero__text{
+        top: 55% !important;
+    }
+}
+
+.icons{
+    background: #252B42;
+}
+
+.clientsay{
+    background: #8EC2F2;
+    &__h5{
+        color: #252B42;
+    }
+}
+
+.optimist{
+    background: #252B42;
+    .opt__text{
+        top: 50%;
+    }
+    .opt__tax{
+        font-size: 4vw !important;
+    }
+    .opt__life{
+        font-size: 7vw !important;
+    }
+    .opt__but{
+        font-size: 5vw !important;
+    }
+}
+.pricing{
+    background-color: #252B42;
+    .pricing__text{
+        h2{
+            @include font(40px, 400);
+        }
+    }
+    &__block{
+        .pricing__price1{
+            .price1__text1{
+                color: #23A6F0 !important;
+            }
+            .price1__cont{
+                .price1__text2{
+                    color: #23A6F0 !important;            
+                }
+                .price1__text3{
+                    color: #8EC2F2 !important;
+                }
+            }
+        }
+        .pricing__free{
+            h3{
+                color: #252B42 !important;
+            }
+            p{
+                color: #737373 !important;
+            }
+        }
+        .pricing__prosncons{
+            color: #252B42 !important;
+            .pricing__list{
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+.btn1036{
+    padding: 10px 36px !important;
+}
+.btn1525{
+    padding: 15px 25px !important;
+}
+
+
+
+.consulting{
+    background-color: #FAFAFA;
+    .consulting__block{
+        h3{
+            color: #252B42 !important;
+        }
+        p{
+            color: #252B42 !important;
+        }
+        button{
+            background-color: #23A6F0;
+        }
+    }
+}
+
+.footer{
+    background: #252B42;
+    .footer__list{
+        ul{
+            list-style-type: none;
+        }
+        .footer__list1{
+            li:first-child{
+                @include font(16px, 700);
+            }
+        }
+        .footer__list2{
+            li:first-child{
+                @include font(16px, 700);
+            }
+        }
+        .footer__list3{
+            li:first-child{
+                @include font(16px, 700);
+            }
+        }
+        .footer__list4{
+            li:first-child{
+                @include font(16px, 700);
+            }
+        }
+        .footer__list5{
+            li:first-child{
+                @include font(16px, 700);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .header{
+        background: none;
+        position: absolute !important;
+        height: 0;
+        z-index: 1;
+    }
+    .hero__text{
+        font-size: 1.5vw!important;
+    }
+    .hero{
+        h2{
+            font-size: 4.5vw!important;
+            width: 50% !important;
+        }
+        h4{
+            font-size: 20px !important;
+            width: 25%!important;
+        }
+        .hero__text{
+            top: 30% !important;
+        }
+        button{
+            font-size: 1vw !important;
+        }
+    }
+    .hero img{
+        height: auto!important;
+    }
+    .optimist{
+        .opt__text{
+            top: 55%;
+            padding-top: 200px;
+        }
+        .opt__tax{
+            font-size: 1vw !important;
+        }
+        .opt__life{
+            font-size: 2vw !important;
+        }
+        .opt__but{
+            font-size: 1vw !important;
+        }
+    }
+    .consulting{
+        .container{
+            width: auto !important;
+        }
+    }
+    .footer{
+        &__bottom{
+            background-color: white;
+            p{
+                color: #737373;
+            }
+        }
+    }
+}
